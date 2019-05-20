@@ -14,7 +14,8 @@ def install(name, loc=None):
     if loc in [None, "pypi"]:
         pipinstall(name)
         retrieve(name, loc)
-    pass
+    else:
+        raise Exception(f"Couldn't install {name}, unknown location {loc}")
 
 
 def pipinstall(package, loc=None):

@@ -24,6 +24,13 @@ with ttt("Time this task"):
  - Scripts
 
 
+### Wanted features
+
+ - Accept version constraints
+ - Install package/module by IPFS hash
+ - Make easily usable in notebooks
+
+
 ---
 
 **WARNING: dynimport might be a terrible idea, I was just curious and had to try and build it**
