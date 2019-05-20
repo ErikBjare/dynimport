@@ -1,4 +1,5 @@
-#dynimport
+dynimport
+=========
 
 *Import Python packages from anywhere!*
 
